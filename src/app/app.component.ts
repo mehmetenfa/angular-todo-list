@@ -29,6 +29,14 @@ export class AppComponent {
     }
   }
 
+  editTask(task: Task): void {
+    const newTitle = prompt('Yeni başlık girin:', task.title);
+    if (newTitle !== null && newTitle !== '') {
+      task.title = newTitle;
+    }
+  }
+
+
   updateTask(task: Task): void {
     task.completed = !task.completed;
   }
