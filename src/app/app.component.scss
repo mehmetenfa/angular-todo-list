@@ -55,13 +55,12 @@ $secondary-color: #f44336;
         margin-right: 10px;
       }
 
-      &.completed {
-        text-decoration: line-through;
-        color: #999;
+      div {
+        margin-left: 16rem;
       }
 
       button {
-        margin-left: auto;
+        margin-left: 0.5rem;
         padding: 5px 10px;
         font-size: 14px;
         background-color: $secondary-color;
@@ -70,6 +69,12 @@ $secondary-color: #f44336;
         border-radius: 4px;
         cursor: pointer;
       }
+
     }
   }
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #999;
 }

@@ -9,7 +9,7 @@ import { Task } from './task.model';
 export class AppComponent {
   tasks: Task[] = [
     { title: 'Task 1', completed: false },
-    { title: 'Task 2', completed: true },
+    { title: 'Task 2', completed: false },
     { title: 'Task 3', completed: false },
   ];
   newTaskTitle = '';
